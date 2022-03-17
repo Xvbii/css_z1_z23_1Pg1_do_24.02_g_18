@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Właściwości czcionek - Burzyński</title>
+			<style>
+			p#podpis { color: red; font-size: 1cm; text-align: right; }
+			p#podpisakjeden { color: blue; }
+			p#zdaniepierwsze { color: #FFA07A; text-transform: capitalize; font-weight: 400; font-style: italic; font-size: xx-small; text-indent: 3cm; margin: 1.2cm; word-spacing: 9px; letter-spacing: 3ex;}
+			p#zdaniedrugie { color: #FF7F50; text-decoration: overline; font-weight: 600; font-size: medium; text-indent: 3cm; margin: 1.2cm; word-spacing: 9px; letter-spacing: 3ex;}
+			p#zdanietrzecie { color: #FF6347; font-weight: 800; font-size: xx-large; text-indent: 3cm; margin: 1.2cm; word-spacing: 9px; letter-spacing: 3ex;}
+			div#akapitpierwszy { font-family: serif;}
+			div#akapitdrugi { font-family: sans-serif;}
+			p#podpisakdrugi { color: blue;}
+			table#tabeladruga { border: 0; align: center;}
+			p#zdanieczwarte { color: #7FFF00; text-transform: capitalize; font-style: oblique; font-weight: 300; font-size: 15px; text-indent: 15mm; margin: 18mm; word-spacing: 13pt; letter-spacing: 0.3cm; align: center;}
+			p#zdaniepiate { color: #32CD32; text-decoration: line-through; font-weight: 600; font-size: 20px; text-indent: 15mm; margin: 18mm; word-spacing: 13pt; letter-spacing: 0.3cm; align: center;}
+			p#zdanieszoste { color: #008000; font-weight: 800; font-size: 25px; text-indent: 15mm; margin: 18mm; word-spacing: 13pt; letter-spacing: 0.3cm; align: center;}
+			</style>
+	</head>
+		<body>
+		<table align="right" border="0"><tr><td><p id="podpis">Jakub Burzyński klasa 1P, układ 2</p></td></tr>
+		<tr><td align="right"><p id="podpisakjeden">Akapit 1 - do prawej</p></td></tr></table> <br><br><br><br>
+		rodzina czcionki 1 (patrz tablea „Sposób kodowania rodziny czcionek”) czyli --> <b>serif</b> <br><br>
+		kolory tekstu (patrz „pierwsza tabela kolorów” wg numeru w dzienniku) czyli --> <b>Odcienie koloru pomarańczowego</b> <br><br>
+		dekoracja tekstu 3 (patrz  tabela „Sposób kodowania dekoracji tekstu”) jedno zdanie w tekście czyli --> <b>Nadkreślić</b> <br><br>
+		styl czcionek 2 (patrz tabela „Sposób kodowania stylu tekstu”) jedno zdanie w tekście czyli --> <b>italic</b> <br><br>
+		wariant czcionki --> kapitaliki, jedno zdanie w tekście <br>
+		<ul>grubości czcionek:
+		<li>jedno zdanie w tekście 400
+		<li>jedno zdanie w tekście 600
+		<li>jedno zdanie w tekście 800
+		</ul>
+		<ul>rozmiary czcionek:
+		<li>jedno zdanie w tekście 1 czyli --> <b>xx-small</b>
+		<li>jedno zdanie w tekście 4 czyli --> <b>medium</b>
+		<li>jedno zdanie w tekście 7 czyli --> <b>xx-large</b> <br> patrz tabele „Sposób kodowania wielkości czcionek”
+		</ul>
+		transformacja tekstu jedno zdanie w tekście ma być wyświetlane dużymi literami <br><br>
+		wcięcia tekstu: 3cm <br>
+		odstępy między: wierszami 1,2cm <br>
+		odstępy między: wyrazami 9px <br>
+		odstępy między: literami 3ex 
+		<hr style="height: 4px; background: silver; border: 0px;"> <br>
+		Realizacja akapitu 1 <br><br>
+		Zdanie 1 --> kapitaliki, grubość czcionki 400, rodzaj stylu czcionki italic, wielkość czcionki xx-small <br>
+		<div id="akapitpierwszy">
+		<p id="zdaniepierwsze" align="right">Dodawanie i mnożenie na liczbach całkowitych i zmiennoprzecinkowych w komputerze nie zawsze zachowują prawo łączności i rozdzielności.
+		</p>
+		Zdanie 2 --> dekoracja tekstu nadkreślenie, grubość czcionki 600, wielkość czcionki medium <br>
+		<p id="zdaniedrugie" align="right">77,8% superkomputerów z 29 notowania listy TOP500 (czerwiec 2007) pracuje pod kontrolą systemu operacyjnego Linux.</p>
+		Zdanie 3 --> grubość czcionki 800, wielkość czcionki xx-large <br>
+		<p id="zdanietrzecie" align="right">Ken Olsen w 1977 roku stwierdził: "Nie ma żadnego powodu, aby ktokolwiek posiadał w domu komputer".
+		</p> </div>
+		<hr style="height: 4px; background: silver; border: 0px;"> <br>
+		rodzina czcionki 2 (patrz tabela „Sposób kodowania rodziny czcionek”) czyli --> <b>sans-serif</b> <br><br>
+		kolory tekstu (patrz „druga tabela kolorów” wg numeru w dzienniku) czyli --> <b>Odcienie koloru zielonego</b> <br><br>
+		dekoracja tekstu 2 (patrz tabela „Sposób kodowania dekoracji tekstu”) jedno zdanie w tekście czyli --> <b>Przekreślić</b> <br><br>
+		styl czcionek 2 (patrz tabela „Sposób kodowania stylu tekstu”) jedno zdanie w tekście czyli --> <b>oblique</b> <br><br>
+		wariant czcionki --> kapitaliki, jedno zdanie w tekście <br>
+		<ul>grubości czcionek:
+		<li>jedno zdanie w tekście 300
+		<li>jedno zdanie w tekście 600
+		<li>jedno zdanie w tekście 800
+		</ul>
+		<ul>rozmiary czcionek:
+		<li>jedno zdanie w tekście --> <b>15px</b>
+		<li>jedno zdanie w tekście --> <b>20px</b>
+		<li>jedno zdanie w tekście --> <b>25px</b> <br>
+		transformacja tekstu jedno zdanie w tekście ma być wyświetlane w taki sposób, aby każde nowe słowo zaczynało się z dużej litery <br><br>
+		wcięcia tekstu: 15mm <br>
+		odstępy między: wierszami 18mm <br>
+		odstępy między: wyrazami 13pt <br>
+		odstępy między: literami 0,3cm 
+		<hr style="height: 4px; background: silver; border: 0px;"> <br>
+		<table id="tabeladruga" align="center"> <tr> <td align="center">
+		<p id="podpisakdrugi">Akapit 2 - centrowany</p> <br>
+		</td></tr></table>
+		Realizacja akapitu 2 <br><br>
+		<div id="akapitdrugi">
+		Zdanie 4 --> kapitaliki, rodzaj stylu czcionki oblique, grubość czcionki 300, rozmiar czcionki 15px <br>
+		<p id="zdanieczwarte" align="center">Wydajność procesora nie zawsze idzie w parze z jego taktowaniem, np. procesor PA-RISC 8600 przy taktowaniu 552 MHz jest blisko dwukrotnie wydajniejszy w obliczeniach zmiennoprzecinkowych od procesora Pentium III 800 MHz.</p>
+		Zdanie 5 --> dekoracja tekstu przekreślenie, grubość czcionki 600, rozmiar czcionki 20px <br>
+		<p id="zdaniepiate" align="center">Pierwszym systemem operacyjnym dla komputerów osobistych był CP/M.</p>
+		Zdanie 6 --> grubość czcionki 800, rozmiar czcionki 25px <br>
+		<p id="zdanieszoste" align="center">Grupie hakerskiej Chaos Computer Club udało się sklonować kartę SIM telefonu komórkowego.</p>
+		<hr style="height: 4px; background: silver; border: 0px;">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</body>
+</html>
